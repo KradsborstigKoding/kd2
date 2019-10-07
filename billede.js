@@ -12,7 +12,7 @@ let loading = {
     name: "Computeren arbejder i højeste hastighed på at finde svaret", 
     picture: "loading.png"
 };
-let loadingTime = 5000;
+let loadingTime = 6000;
 
 showRotatingPic(loading.picture);
 
@@ -74,7 +74,7 @@ function showPic(roommateName) {
 }
 
 function showName(roommateName) {
-    let name = document.getElementById("name").innerHTML = roommateName;
+    name = document.getElementById("name").innerHTML = roommateName
     document.body.appendChild(name);
 }
 
