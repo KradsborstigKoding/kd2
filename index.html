@@ -1,0 +1,60 @@
+ <!DOCTYPE html>
+<html>
+<body>
+<style> 
+
+
+@font-face {
+    font-family: passata;
+    src: url(AUPassata_Rg.ttf);
+}
+
+h1.style1 {
+  padding-top: 50px;
+  font-family: passata;
+  padding-bottom: 30px;
+  font-size: 30px;
+}
+
+p.style2 {
+  padding-top: 30px;
+  font-family: passata;
+  font-size: large;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.imgStyle {
+    width: 30%;
+    max-width: 100%;
+}
+
+img.rotate {
+    -webkit-animation:spin 2s linear infinite;
+    -moz-animation:spin 2s linear infinite;
+    animation:spin 2s linear infinite;
+    width: 20%;
+    max-width: 100%;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+</style>
+
+<h1 class = "style1"  align ="center"> Hvem har køkkentjansen på kollegium 5 stuen?</h1>
+
+<figure id = "billede"></figure>
+
+<p id = "name" class = "style2" align = "center">Computeren arbejder i højeste hastighed på at finde svaret</p>
+
+<script src="billede.js"></script> 
+
+
+
+</body>
+</html> 
