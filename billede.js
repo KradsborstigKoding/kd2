@@ -12,7 +12,7 @@ let loading = {
     name: "Computeren arbejder i højeste hastighed på at finde svaret", 
     picture: "loading.png"
 };
-let loadingTime = 500;
+let loadingTime = 5000;
 
 showRotatingPic(loading.picture);
 
